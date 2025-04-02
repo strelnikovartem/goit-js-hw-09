@@ -1,0 +1,9 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 24px;
+}
+
+.gallery-item {
+  flex-basis: calc ((100% - 48px) / 3);
+}
